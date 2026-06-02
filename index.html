@@ -1,0 +1,42 @@
+<script>
+  /*linea que permite escribir*/
+  document.write('Hola');//escribo texto hola
+  document.write('<br>');//escribo una etiqueta html de salto de línea en el texto (retorno de carro).
+
+  document.write('Este es mi primer programa con javascript en este curso');
+  document.write('<br>');
+  document.write('<br>');
+  document.write("hagamos operaciones");
+  document.write('<br>');
+  document.write('<br>');
+
+  /*creo variables*/
+  var basetriangulo;
+  var alturatriangulo;
+  var ladocuadrado;
+
+  /*pido datos en un dialogo del explorador*/
+  basetriangulo=prompt('dame la base del triangulo:','');//pido base triangulo
+  alturatriangulo=prompt('dame la altura del triangulo','');//pido altura triangulo
+  ladocuadrado=prompt('dame el lado del cuadrado','');//pido lado cuadrado
+
+  /*convierto valores a valores numericos para poder hacer operaciones*/
+  basetriangulo=parseInt(basetriangulo);
+  alturatriangulo=parseInt(alturatriangulo;
+  ladocuadrado=parseInt(ladocuadrado);
+
+  /*hago operaciones*/
+  //hago calculo del perimetro del triangulo
+  var perimetrocuadrado=ladocuadrado + ladocuadrado + ladocuadrado + ladocuadrado;
+  //hago calculo del area del triangulo
+  var areatriangulo=((basetriangulo * alturatriangulo) / 2);
+
+  /*escribo resultados*/
+  document.write('El area del triangulo es: ');
+  dosument.write(areatriangulo);
+  document.write('<br>');
+  document.write('<br>');
+  document.write('El perimetro del cuadrado es: ');
+  document.write(perimetrocuadrado);
+
+  </script> 
